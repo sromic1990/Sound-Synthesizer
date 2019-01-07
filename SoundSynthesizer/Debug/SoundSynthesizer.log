@@ -1,0 +1,23 @@
+﻿  main.cpp
+g:\gitrepos\sound-synthesizer\soundsynthesizer\olcnoisemaker.h(171): error C2664: 'void std::vector<std::wstring,std::allocator<_Ty>>::push_back(_Ty &&)': cannot convert argument 1 from 'CHAR [32]' to 'const _Ty &'
+          with
+          [
+              _Ty=std::wstring
+          ]
+  g:\gitrepos\sound-synthesizer\soundsynthesizer\olcnoisemaker.h(171): note: Reason: cannot convert from 'CHAR [32]' to 'const _Ty'
+          with
+          [
+              _Ty=std::wstring
+          ]
+  g:\gitrepos\sound-synthesizer\soundsynthesizer\olcnoisemaker.h(171): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  g:\gitrepos\sound-synthesizer\soundsynthesizer\olcnoisemaker.h(165): note: while compiling class template member function 'std::vector<std::wstring,std::allocator<_Ty>> olcNoiseMaker<short>::Enumerate(void)'
+          with
+          [
+              _Ty=std::wstring
+          ]
+  g:\gitrepos\sound-synthesizer\soundsynthesizer\main.cpp(15): note: see reference to function template instantiation 'std::vector<std::wstring,std::allocator<_Ty>> olcNoiseMaker<short>::Enumerate(void)' being compiled
+          with
+          [
+              _Ty=std::wstring
+          ]
+  g:\gitrepos\sound-synthesizer\soundsynthesizer\main.cpp(15): note: see reference to class template instantiation 'olcNoiseMaker<short>' being compiled

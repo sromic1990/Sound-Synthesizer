@@ -1,3 +1,0 @@
-G:/GitRepos/Sound-Synthesizer/cmake-build-debug/CMakeFiles/Sound_Synthesizer.dir
-G:/GitRepos/Sound-Synthesizer/cmake-build-debug/CMakeFiles/edit_cache.dir
-G:/GitRepos/Sound-Synthesizer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
